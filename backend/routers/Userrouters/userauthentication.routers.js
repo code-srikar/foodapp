@@ -16,7 +16,7 @@ router.use(session({
 
 
 router.use(cors({
-    origin: ["https://localhost:3000"],
+    origin: true,
     methods: ["GET", "POST"],
     credentials: true
 }))
