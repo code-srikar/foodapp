@@ -5,7 +5,7 @@ const cors = require('cors')
 
 const express = require('express');
 const app = express();
-app.use(cors({origin:'https://s-quick-bite.netlify.app',credentials:true}))
+app.use(cors({origin:true,credentials:true}))
 
 const mongoose = require('mongoose');
 
