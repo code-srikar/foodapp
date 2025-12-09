@@ -19,7 +19,7 @@ const userauthentication = require('./routers/Userrouters/userauthentication.rou
 
 
 
-mongoose.connect("mongodb+srv://" + backend)
+mongoose.connect(backend)
     .then(console.log("Connected"))
     .catch(err => console.log(err));
 
